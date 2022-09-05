@@ -10,4 +10,9 @@ public class HolaMundo : MonoBehaviour
     {
         transform.Rotate(new Vector3(0, rotationSpeed, 0) * Time.deltaTime);
     }
+
+    public int Sumar(int a, int b)
+    {
+        return a + b;
+    }
 }
